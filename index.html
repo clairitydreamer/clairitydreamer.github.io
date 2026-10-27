@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Home Dashboard</title>
+<style>
+  :root { --bg: #f6f7fb; --text: #1a1c23; --muted: #5d6374; --card: #fff; --border: #e3e5ec; --accent: #2fb57c; }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg: #0f1117; --text: #e8eaf0; --muted: #8b90a0; --card: #161922; --border: #262a35; }
+  }
+  body { margin: 0; font-family: system-ui, -apple-system, "Segoe UI", sans-serif; background: var(--bg); color: var(--text); line-height: 1.6; }
+  main { max-width: 680px; margin: 0 auto; padding: 64px 16px; }
+  h1 { font-size: 2rem; margin: 0 0 8px; }
+  .lead { color: var(--muted); font-size: 1.1rem; margin: 0 0 32px; }
+  .card { background: var(--card); border: 1px solid var(--border); border-radius: 14px; padding: 20px 24px; margin-bottom: 16px; }
+  .card h2 { font-size: 1.05rem; margin: 0 0 6px; }
+  .card p { margin: 0; color: var(--muted); }
+  a { color: var(--accent); }
+  footer { margin-top: 40px; color: var(--muted); font-size: .9rem; }
+</style>
+</head>
+<body>
+<main>
+  <h1>🏠 Home Dashboard</h1>
+  <p class="lead">A private dashboard that runs on one home PC and shows the owner's own devices and services on their home network.</p>
+  <div class="card">
+    <h2>What it does</h2>
+    <p>It shows the owner's Google Nest thermostat and cameras alongside their other home services, so they can check the temperature, adjust the thermostat and watch their cameras from one page.</p>
+  </div>
+  <div class="card">
+    <h2>Who it's for</h2>
+    <p>Only the owner of this site. It isn't offered to the public, and it's only reachable from inside the owner's home network.</p>
+  </div>
+  <div class="card">
+    <h2>Your data</h2>
+    <p>Nest data stays on the owner's home PC and is never shared. See the <a href="privacy.html">privacy policy</a> for details.</p>
+  </div>
+  <footer>Maintained by <a href="https://github.com/clairitydreamer">clairitydreamer</a> · <a href="privacy.html">Privacy policy</a></footer>
+</main>
+</body>
+</html>
